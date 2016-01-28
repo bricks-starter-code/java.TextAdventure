@@ -75,7 +75,8 @@ public class Me
             currentLocation = currentLocation.East;
             look();
         }
-        System.out.println("You can't go that way.");
+        else
+            System.out.println("You can't go that way.");
     }
     
     public void goWest()
@@ -85,7 +86,8 @@ public class Me
             currentLocation = currentLocation.West;
             look();
         }
-        System.out.println("You can't go that way.");
+        else
+            System.out.println("You can't go that way.");
     }
     
     public void goNorth()
@@ -95,7 +97,8 @@ public class Me
             currentLocation = currentLocation.North;
             look();
         }
-        System.out.println("You can't go that way.");
+        else
+            System.out.println("You can't go that way.");
     }
     
     public void goSouth()
@@ -105,7 +108,8 @@ public class Me
           currentLocation = currentLocation.South;
           look();
         }
-        System.out.println("You can't go that way.");
+        else
+            System.out.println("You can't go that way.");
     }
     
     public void look()
